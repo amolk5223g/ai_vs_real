@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Ignore datasets and models if they are too large for GitHub (over 100MB)
+# If your model or dataset is small, you can comment these out
+dataset/
+model/
+
+# VS Code settings
+.vscode/
